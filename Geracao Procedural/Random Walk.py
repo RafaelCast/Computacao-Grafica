@@ -1,6 +1,10 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+import matplotlib
+matplotlib.use('TkAgg')
+
+
 # Define o tamanho do mapa
 size = 500
 
