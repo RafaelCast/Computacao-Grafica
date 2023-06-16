@@ -15,3 +15,5 @@ mountain = mountain.astype(np.uint8)
 i = 7
 img = Image.fromarray(mountain)
 img.save(f'mountain{i}.png')
+
+random.uniform(0.1, 0.5)
